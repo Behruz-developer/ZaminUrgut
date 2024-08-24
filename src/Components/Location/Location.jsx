@@ -10,11 +10,9 @@ const Location = () => {
           <div className="location_card1" data-aos="fade-right" data-aos-offset="-200">
             <h3 className="location_title">Joylashgan o`rni</h3>
             <p className="location_text">
-              Majmua Namangan shahrida qurilmoqda, qulay joylashuv nafaqat shahar markaziga yaqinlikni, balki turli xizmatlar, doʻkonlar va dam olish maskanlarining ham qoʻl ostida boʻlishini taʼminlaydi. Bu yerda siz barcha qulayliklardan bahramand boʻlasiz.
-            </p>
+              Zamin — bu nafaqat zamonaviy xonadonlar, balki shahar yuragida joylashgan qulaylik va imkoniyatlar markazi. Loyiha sizning har bir kuningizni yengillashtirish va yanada boyitish uchun moʻljallangan.            </p>
             <p className="location_text">
-              Oilangiz bilan qulay va osoyishta hayot kechirish uchun eng yaxshi joy! Farzandlaringiz maktabga yaqin, siz esa barcha zarur xizmatlarga osongina yetib borishingiz mumkin.
-            </p>
+            Majmuamiz shahar markaziga yaqin joylashgan boʻlib, bu sizning barcha muhim maskanlarga oson va tez yetib borishingizni taʼminlaydi. Ijtimoiy infratuzilma, ish joylari, savdo markazlari va koʻngilochar maskanlar — barchasi sizning atrofingizda!            </p>
           </div>
           <div className="location_card_left" data-aos="fade-left" data-aos-offset="-200">
             <img src={universal} alt="" className="location_img" />

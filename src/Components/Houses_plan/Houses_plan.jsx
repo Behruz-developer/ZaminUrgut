@@ -41,6 +41,16 @@ const Houses_plan = () => {
           {/* Showing corresponding content based on activeNumber */}
           {activeNumber === "Hammasi" && (
             <div className="houses_card_bottom">
+              <img src={houses2} alt="" className="houses_img" />
+              <div className="houses_border"></div>
+              <img src={houses4} alt="" className="houses_img" />
+              <div className="houses_border"></div>
+              <img src={houses6} alt="" className="houses_img" />
+            </div>
+          )}
+
+          {activeNumber === "2-xonali" && (
+            <div className="houses_card_bottom1">
               <img src={houses1} alt="" className="houses_img" />
               <div className="houses_border"></div>
               <img src={houses2} alt="" className="houses_img" />
@@ -49,22 +59,13 @@ const Houses_plan = () => {
             </div>
           )}
 
-          {activeNumber === "2-xonali" && (
-            <div className="houses_card_bottom1">
-              <img src={houses5} alt="" className="houses_img" />
-              <div className="houses_border"></div>
-              <img src={houses4} alt="" className="houses_img" />
-              <div className="houses_border"></div>
-              <img src={houses1} alt="" className="houses_img" />
-            </div>
-          )}
-
           {activeNumber === "3-xonali" && (
             <div className="houses_card_bottom2">
-              <img src={houses3} alt="" className="houses_img" />
+              <img src={houses4} alt="" className="houses_img" />
+              <div className="houses_border"></div>
+              <img src={houses5} alt="" className="houses_img" />
               <div className="houses_border"></div>
               <img src={houses6} alt="" className="houses_img" />
-
             </div>
           )}
 

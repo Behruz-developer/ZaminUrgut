@@ -24,9 +24,7 @@ const Blocks_location = () => {
                 </svg>
               </div> */}
               <p className="blocks_location_map_text_text">
-                Majmua arxitekturasi zamonaviy materiallar
-                va innovatsion texnologiyalar yordamida
-                ishlab chiqilgan.
+                Tabiat bilan yaqinlikni his qilish uchun moʻljallangan parklar va bogʻlar sizga shinamlik tuygʻusini taqdim etadi.
               </p>
               {/* <p className="blocks_location_map_text_text2">Xaritada ko‘rish</p> */}
             </div>
@@ -35,11 +33,9 @@ const Blocks_location = () => {
           <div className="blocks_location_card_text">
             <h2 className="blocks_location_title">Majmua arxitekturasi</h2>
             <p className="blocks_location_text">
-              Central Avenue nafaqat qulay yashash sharoitlarini, balki goʻzallik va sanʼatning mukammal uygʻunligini ham taqdim etadi.
-            </p>
+              Zamin Urgut — bu shunchaki bino emas, balki goʻzallik va qulaylikni oʻzida mujassam etgan arxitektura moʻjizasi. Majmuaning har bir burchagi oʻziga xos dizayn va puxta oʻylangan rejalashtirish natijasidir.            </p>
             <p className="blocks_location_text">
-              Har bir bino nafis dizayn va zamonaviy arxitektura yechimlari asosida qurilgan. Ularning tashqi koʻrinishi nafislik va estetikani oʻzida mujassam etgan boʻlib, har bir burchakda goʻzallikni his qilasiz.
-            </p>
+              Majmua arxitekturasi zamonaviy texnologiyalar va ilgʻor yechimlar asosida yaratilgan. Energiya samaradorligi, ekologik toza materiallar va aqlli uy tizimlari hayotingizni yanada qulay va xavfsiz qiladi.            </p>
           </div>
 
           <div className="blocks_location_card_icons">

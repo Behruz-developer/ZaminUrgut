@@ -49,11 +49,11 @@ const Upcoming = ({ images }) => {
                           className="slidet_text"
                           key={`navimage${index + 1}`}
                         >
-                          Oilaviy baxt va xotirjamlik
-                          shu yerdan boshlanadi
+                          Butun umrlik xotiralar yaratiladigan
+                          shinam va sevimli uylar
                         </h3>
                         <p className="slidet_text2">
-                          Central Avenue — Namangan shahrining markazida barpo etilayotgan zamonaviy turar-joy majmuasi boʻlib,
+                          Zamin — Urgut tumani markazida barpo etilayotgan zamonaviy turar-joy majmuasi boʻlib,
                           unda oilangiz bilan xavfsiz va xotirjam hayot kechirish uchun barcha imkoniyatlar yaratilgan.
                         </p>
                       </div>
@@ -69,7 +69,7 @@ const Upcoming = ({ images }) => {
                       <div className="upcoming_icons">
                         <div className="upcoming_icons_card">
                           <a href="#!" className="upcoming_icon">
-                           Live
+                            Live
                           </a>
                           <Link to="form"
                             smooth={true}

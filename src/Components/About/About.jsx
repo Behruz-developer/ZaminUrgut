@@ -28,25 +28,22 @@ const About = () => {
                 </svg>
               </div> */}
               <p className="about_map_text_text">
-                Central Avenue — rivojlangan infratuzilmaga ega,  qoʻshnilar bilan doʻstona munosabatlar oʻrnatish va ijtimoiy tadbirlarda qatnashish imkoniyatini taqdim etuvchi koʻp funksiyali majmua.
-              </p>
+              Central Avenue — bu sizning orzularingizdagi yangi uy. Sizga toʻlaqonli hayot, tinchlik va qulaylikni taqdim etuvchi majmuamizda yangi hayot boshlang!              </p>
               <p className="about_map_text_text2">Xaritada ko‘rish</p>
             </div>
           </div>
           <div className="about_card_text" data-aos="fade-left">
             <h2 className="about_title">Loyiha haqida</h2>
             <p className="about_text">
-              Biz faqat eng sifatli materiallar va zamonaviy texnologiyalardan foydalanamiz. Har bir xonadon mustahkam va uzoq muddatli boʻlishi uchun puxta rejalashtirilgan.
-            </p>
+              Zamin bu nafaqat uy, balki har bir lahzadan zavq oladigan yangi hayot tarzidir. Majmuada yashash bu qulaylik, xavfsizlik va zamonaviylikning mukammal uygʻunligidir.            </p>
             <p className="about_text">
-              Central Avenue shahar markaziga yaqin joylashgan boʻlib, barcha zaruriy infratuzilmalar bilan taʼminlangan. Savdo markazlari, maktablar, bogʻchalar va jamoat transporti — hammasi bir qadamda.
-            </p>
+              Yashil hududlar, sayr yoʻlaklari va sokin dam olish joylari sizga shahar shovqinidan uzoqda tinchlik topishga imkon beradi. Bu yerda siz har kuni tabiat bilan yaqinlikni his qilasiz.            </p>
           </div>
 
 
           <div className="about_card_icons" data-aos="fade-left">
             <div className="about_card_icon">
-            <div className="about_icon_text">
+              <div className="about_icon_text">
                 <div className="about_icon_text_card" >
                   <svg className="about_icon_text_img" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask id="mask0_2062_4364" maskUnits="userSpaceOnUse" x="5" y="5" width="71" height="70">
@@ -128,7 +125,6 @@ const About = () => {
                 </div>
                 Bolalar <br />o‘yingohi
               </div>
-
               <div className="about_icon_text">
                 <div className="about_icon_text_card">
                   <svg className="about_icon_text_img" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -142,14 +138,9 @@ const About = () => {
                     <path d="M8.73047 24.5326H12.3105C13.2905 24.5326 14.1205 24.6126 15.0705 23.9826C16.0305 23.3526 16.8905 21.3226 17.2205 20.6426" stroke="#0B2336" stroke-width="1.1999" stroke-miterlimit="22.9256" stroke-linecap="round" />
                     <path d="M32.9998 17.5938C33.8198 17.5938 34.4898 18.2638 34.4898 19.0838C34.4898 19.9038 33.8198 20.5738 32.9998 20.5738C32.1798 20.5738 31.5098 19.9038 31.5098 19.0838C31.5098 18.2638 32.1798 17.5938 32.9998 17.5938Z" stroke="#0B2336" stroke-width="1.1999" stroke-miterlimit="22.9256" stroke-linecap="round" />
                   </svg>
-
                 </div>
                 24/7 Qo'riqlash va videkuzatuv
               </div>
-
-
-
-
               <div className="about_icon_text">
                 <div className="about_icon_text_card" >
                   <svg className="about_icon_text_img" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -174,7 +165,6 @@ const About = () => {
                     <path d="M62.958 20.5C62.6053 20.5 62.2846 20.3536 62.0923 20.0902C60.3931 17.8074 57.5717 16.4317 54.5579 16.4317C53.9809 16.4317 53.5 15.9926 53.5 15.4658C53.5 14.939 53.9809 14.5 54.5579 14.5C58.277 14.5 61.7397 16.1975 63.8236 19.0073C64.1442 19.4464 64.0159 20.0317 63.535 20.3244C63.3427 20.4708 63.1503 20.5 62.958 20.5Z" fill="#0B2336" />
                     <path d="M74.9035 76H5.0965C4.49845 76 4 75.659 4 75.25C4 74.8409 4.49845 74.5 5.0965 74.5H74.9035C75.5015 74.5 76 74.8409 76 75.25C76 75.659 75.5015 76 74.9035 76Z" fill="#0B2336" />
                   </svg>
-
                 </div>
                 Yopiq va xavfsiz
                 hovli
@@ -195,11 +185,9 @@ const About = () => {
                       <image id="image0_2045_3034" width="65" height="64" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABACAMAAAByderSAAAAtFBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oK74hAAAAO3RSTlMAM7tl/AR2iAjoqpsL8V3Uow/tIjQdGNwt80MV2JGEcVD1TEjitX9sWVM4JZg8KhL3w7/Oy8dojkDPqe2tUEYAAAOYSURBVFjDpZbrWuIwFEVDL9haSqEg0IIiV0cRwVFQZ73/e80YaXojRZn1K/3OadKcnL0boadjertRaPnus2d2xI9pjz/I8jJu/Oz9mwjoe+Ppuraejr0RcCN+wL0L8+Uqu6Pl77X4Ns41uGNHnE3vFVptcT69EVFTGzVehydrGBA+aKO2y+7UmVwSdSvCXZ9LUYkJt9nnxmCQT7gFs7IIPm+Z18evFtTzKW/4PaHHo5+eYjMELHdaOOs+ntByZXGviuaBu+zaQrK5t1W7YV0JHRcEatyCayfz1FLjgAuhY55WaQz7bJ/DXVpt19ZM8M62rUpaWOiGMIm1t7xrZlhipC/MnWIBl6ox1bCIQT3d67gQ3Kc1qmNoyzBLNgFXxXOCpA9mzDWqhqfD8AG/FPZJ9LICJQ7dKlNGpfBI9XsbjnfEEySnFOOWwq7ao4DVcVHAMP3OTSG6Sfc4hOPSsC0G6YK/it5JmAwHWOI4I5qpxJ4LwWceleQYaZXZUjWxDrOlb1lPqUg8nckTqoa/Jurmvela7TbkVmfzmZDzgn+fOpPPR0M9EGp/BY8s1Hj4AYvY/lwzXkCQevSCR72PwiD1OA/wX4ydD3hpEw6gwot/08pOeBnxyfYy6/8tfgs9M6xOrjLvzbr5nhNBx2ImKnjlj6jmD6+V8VhtUl+qWFSy4Lky/sxCVDOwpCJ0/MIaiBNc47a1wbabtuZZSfrpixrS/f4flN6qMQjs4wYSYIjv0Ik097Ybom/eK++w1qLM2kr/fKf30S/beaOv9nCaXqgUllVU2BPf5haamvuRnmGz/sV4JQ9+8pT/mUxkm6zGh6xm6VY4jTgghWG/EDSyRQh4saWBJETT0hWsbxyQulj5POb8z19JXSRJc6JewehHTkFD2VI0KerNGeEVFHlbtt1J7TCsTcrmOs2r1DjiffaO+fCryHN29hFPNXL2WJMtA4Smug24GNLtDdwrdaghIBuuljFMO5ANtAmRGEn6eitvuG9pk18ZSMKNbDGlwD0T+VK7848LCz9WAsEUJkoOsY918ZnUltNN2CtPyWrxIWApnJY8sy0EsJXjliOWjB5yWnXbyaCRO6jYEQPKDIQdOzmtyaXlx5iixNQsMi0nmXL7h4I49YsD9YbQ00jTnOQIujCTLahoVploPm0GXbH4aoyNd3nAG1YpOE3bfLXiQkTE4nxiJqKP162dS9ejL+74H2S37fucT/9O/AWw+Z55pWtuZwAAAABJRU5ErkJggg==" />
                     </defs>
                   </svg>
-
                 </div>
                 Qulay <br /> joylashuv
               </div>
-
               <div className="about_icon_text">
                 <div className="about_icon_text_card">
                   <svg className="about_icon_text_img" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -212,9 +200,7 @@ const About = () => {
                 </div>
                 Shovqinsiz <br /> liftlar
               </div>
-
             </div>
-
           </div>
         </div>
       </div>

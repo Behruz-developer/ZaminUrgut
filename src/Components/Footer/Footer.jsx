@@ -36,9 +36,9 @@ const Footer = () => {
                 Sotuv bo‘limi
               </div>
               <p className="footer_location_text">
-                Samarkand Region, Uzbekistan
-                <br />
-                Urgut
+              Samarqand viloyati Urgut tumani 
+              <br />
+              Alisher Navoiy koʻchasi
               </p>
             </div>
             <div className="footer_social">

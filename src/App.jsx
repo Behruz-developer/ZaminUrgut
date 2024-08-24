@@ -14,8 +14,8 @@ import Houses_plan from "./Components/Houses_plan/Houses_plan";
 import { useEffect, useState } from "react";
 import Loading from "./Components/Loading/Loading";
 import average from './assets/images/avarage.jpg'
-import average2 from './assets/images/average1.jpg'
-import average3 from './assets/images/average2.jpg'
+import average2 from './assets/images/average1.png'
+import average3 from './assets/images/average2.png'
 import average4 from './assets/images/average3.jpeg'
 
 const App = () => {
