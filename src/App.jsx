@@ -8,6 +8,7 @@ import Nav from "./Components/Nav/Nav";
 import Upcoming from "./Components/Upcoming/Upcoming";
 import img1 from "./assets/images/slider-1.jpg";
 import img2 from "./assets/images/slider-2.jpg";
+import img3 from "./assets/images/slider-3.jpg";
 import Send_form from "./Components/Send_form/Send_form";
 import Block_average from "./Components/Block_average/Block_average";
 import Houses_plan from "./Components/Houses_plan/Houses_plan";
@@ -45,7 +46,7 @@ const App = () => {
 
     return () => window.removeEventListener('load', handlePageLoad);
   }, []);
-  const images = [img1, img2];
+  const images = [img1, img2, img3];
   return (
     <>
       {isLoading ? (

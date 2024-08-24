@@ -6,24 +6,25 @@ import { PiPhoneCallLight } from "react-icons/pi";
 import { Link } from "react-scroll";
 
 const Upcoming = ({ images }) => {
+  
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const [zoom, setZoom] = useState(true);
 
   const nextSlide = () => {
-    setZoom(true); // Zoom-in boshlanadi
+    setZoom(true); 
     setTimeout(() => {
-      setZoom(false); // 3 sekunddan keyin zoom-out boshlanadi
+      setZoom(false);
       setTimeout(() => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length); // Zoom-out tugagach keyingi slaydga o'tish
-        setZoom(true); // Keyingi slayd uchun zoom-in boshlanadi
-      }, 3000); // 3 sekund zoom-out davomida
-    }, 3000); // 3 sekund zoom-in davomida
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length); 
+        setZoom(true); 
+      }, 3000); 
+    }, 3000); 
   };
 
   useEffect(() => {
-    nextSlide(); // Dastlabki renderda birinchi slayd uchun zoom animatsiyasini boshlash
-    const autoSlider = setInterval(nextSlide, 6000); // Har bir slaydda umumiy jarayon 6 sekund davom etadi (3 sekund zoom-in + 3 sekund zoom-out)
+    nextSlide(); 
+    const autoSlider = setInterval(nextSlide, 6000);
     return () => clearInterval(autoSlider);
   }, []);
 
