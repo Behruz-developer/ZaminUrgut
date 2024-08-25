@@ -115,16 +115,12 @@ const Nav = () => {
                       </div>
                     </div>
                     <div className="nav_card_right menu">
-                      <div className="nav_contact">
+                      <a href="tel:1361" className="nav_contact">
                         <PiPhoneCallLight href="1361" className="nav_phone_icon" />
-                        <Link to="form"
-                          smooth={true}
-                          duration={500}
-                          offset={-50}
-                          href="#!" className="nav_contact_text" onClick={() => setActive(false)}>
+                        <a href="tel:1361" className="nav_contact_text" onClick={() => setActive(false)}>
                           1361
-                        </Link>
-                      </div>
+                        </a>
+                      </a>
                       <div className="nav_download">
                         <RxDownload className="nav_phone_icon" />
                         <div className="nav_download_card">
@@ -139,14 +135,15 @@ const Nav = () => {
                 </div>
               </div>
               <div className="nav_card_right">
-                <a href="tel:1361" className="nav_contact">
-                  <PiPhoneCallLight className="nav_phone_icon" />
-                  <Link
-                    href="tel:1361" className="nav_contact_text">
-                    1361
-                  </Link>
+                <div className="nav_contact">
+                  <a href="tel:1361" className="nav_contact_a">
+                    <PiPhoneCallLight className="nav_phone_icon" />
+                    <a href="tel:1361" className="nav_contact_text">
+                      1361
+                    </a>
+                  </a>
                   <IoMenu className="nav_menu" onClick={() => setActive(true)} />
-                </a>
+                </div>
                 <div className="nav_download download">
                   <RxDownload className="nav_phone_icon" />
                   <div className="nav_download_card">
