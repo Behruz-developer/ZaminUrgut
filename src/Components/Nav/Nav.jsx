@@ -116,10 +116,10 @@ const Nav = () => {
                     </div>
                     <div className="nav_card_right menu">
                       <a href="tel:1361" className="nav_contact">
-                        <PiPhoneCallLight href="1361" className="nav_phone_icon" />
-                        <a href="tel:1361" className="nav_contact_text" onClick={() => setActive(false)}>
+                        <PiPhoneCallLight className="nav_phone_icon" />
+                        <span href="tel:1361" className="nav_contact_text" onClick={() => setActive(false)}>
                           1361
-                        </a>
+                        </span>
                       </a>
                       <div className="nav_download">
                         <RxDownload className="nav_phone_icon" />
@@ -136,11 +136,11 @@ const Nav = () => {
               </div>
               <div className="nav_card_right">
                 <div className="nav_contact">
-                  <a href="tel:1361" className="nav_contact_a">
+                  <a href="tel:1361" className="nav_contact">
                     <PiPhoneCallLight className="nav_phone_icon" />
-                    <a href="tel:1361" className="nav_contact_text">
+                    <span className="nav_contact_text">
                       1361
-                    </a>
+                    </span>
                   </a>
                   <IoMenu className="nav_menu" onClick={() => setActive(true)} />
                 </div>
