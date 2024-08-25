@@ -19,7 +19,7 @@ const Location = () => {
           </div>
           <div className="location_card2" data-aos="fade-right" data-aos-offset="-200">
             <p className="location_text2">
-              Zamin Urgut — Sizning farovon va qulay hayotingiz uchun mukammal joy. Shahar markazidagi qulay joylashuv va barcha zarur qulayliklarni bir joyda mujassam etgan majmuamizda yangi hayotingizni boshlang!"
+              Zamin — Sizning farovon va qulay hayotingiz uchun mukammal joy. Shahar markazidagi qulay joylashuv va barcha zarur qulayliklarni bir joyda mujassam etgan majmuamizda yangi hayotingizni boshlang!"
             </p>
           </div>
         </div>
