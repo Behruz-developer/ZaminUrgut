@@ -33,7 +33,7 @@ const Blocks_location = () => {
           <div className="blocks_location_card_text">
             <h2 className="blocks_location_title">Majmua arxitekturasi</h2>
             <p className="blocks_location_text">
-              Zamin Urgut — bu shunchaki bino emas, balki goʻzallik va qulaylikni oʻzida mujassam etgan arxitektura moʻjizasi. Majmuaning har bir burchagi oʻziga xos dizayn va puxta oʻylangan rejalashtirish natijasidir.            </p>
+              Zamin — bu shunchaki bino emas, balki goʻzallik va qulaylikni oʻzida mujassam etgan arxitektura moʻjizasi. Majmuaning har bir burchagi oʻziga xos dizayn va puxta oʻylangan rejalashtirish natijasidir.            </p>
             <p className="blocks_location_text">
               Majmua arxitekturasi zamonaviy texnologiyalar va ilgʻor yechimlar asosida yaratilgan. Energiya samaradorligi, ekologik toza materiallar va aqlli uy tizimlari hayotingizni yanada qulay va xavfsiz qiladi.            </p>
           </div>

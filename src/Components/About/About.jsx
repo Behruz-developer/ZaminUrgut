@@ -28,7 +28,7 @@ const About = () => {
                 </svg>
               </div> */}
               <p className="about_map_text_text">
-                Zamin Urgut — Sizning orzularingizdagi yangi uy. To‘laqonli hayot, tinchlik va qulaylikni taqdim etuvchi majmuamizda yangi hayotingizni boshlang! Xaritada ko‘rish.      </p>
+                Zamin — Sizning orzularingizdagi yangi uy. To‘laqonli hayot, tinchlik va qulaylikni taqdim etuvchi majmuamizda yangi hayotingizni boshlang! Xaritada ko‘rish.      </p>
               <p className="about_map_text_text2">Xaritada ko‘rish</p>
             </div>
           </div>
