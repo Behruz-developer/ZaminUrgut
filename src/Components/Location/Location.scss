@@ -7,12 +7,14 @@
     overflow: hidden;
     margin-bottom: 90px;
 
-    @include media (1020px){
+    @include media (1020px) {
         padding-bottom: 40px;
     }
-    @include media (850px){
+
+    @include media (850px) {
         padding-bottom: 0px;
     }
+
     @include media (800px) {
         margin-bottom: 40px;
     }
@@ -24,9 +26,9 @@
     &_box {
         width: 100%;
         display: grid;
-          grid-template-columns: repeat(2, 46%);
+        grid-template-columns: repeat(2, 48%);
         grid-template-rows: repeat(3, 0.5fr);
-        gap: 8%;
+        gap: 4%;
 
         @include media(1200px) {
             gap: 5%;
@@ -34,10 +36,14 @@
 
         }
 
+        @include media(850px) {
+
+            padding-bottom: 20px;
+        }
+
         @include media(650px) {
-            // grid-template-columns: repeat(1, 100%);
-            // grid-template-rows: repeat(3);
-            // gap: 0;
+            padding-bottom: 0px;
+
             display: flex;
             flex-direction: column;
         }
@@ -122,14 +128,21 @@
         flex-direction: column;
         row-gap: 16px;
         grid-column: span 1;
-        width: 70%;
+        width: 90%;
+        padding-bottom: 29px;
 
         @include media(1600px) {
             width: 85%;
         }
 
+        @include media(1200px) {
+            padding-bottom: 80px;
+
+        }
+
         @include media (850px) {
             grid-row: span 3;
+            padding-bottom: 0px;
         }
 
         @include media(650px) {
@@ -140,6 +153,7 @@
             grid-column: span 2;
             // margin-top: 100px;
         }
+
         @include media(550px) {
             order: -1;
             grid-row: span 1;
@@ -158,6 +172,10 @@
 
         @include media(1600px) {
             width: 85%;
+        }
+
+        @include media(950px) {
+            padding-bottom: 50px;
         }
 
         @include media(850px) {

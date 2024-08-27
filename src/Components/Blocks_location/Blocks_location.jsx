@@ -70,7 +70,7 @@ const Blocks_location = () => {
 
 
                 </div>
-                Yevropa fasad <br /> materiallari
+                Yevropa fasad  materiallari
               </div>
             </div>
           </div>
