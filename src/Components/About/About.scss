@@ -1,7 +1,4 @@
-:root {
-    --gr-1: #01512e;
-    --gr-2: #D4E2E0;
-}
+
 
 .about {
     height: auto;
@@ -179,7 +176,7 @@
             }
 
             &_color {
-                fill: var(--gr-1);
+                fill: black;
             }
 
             &_color2 {
@@ -328,7 +325,7 @@
             }
 
             &_color {
-                stroke: var(--gr-1);
+                stroke: black;
             }
         }
 
